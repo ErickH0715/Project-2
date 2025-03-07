@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #007bff; /* Azul brillante */
     background-image: url('tu-imagen.jpg'); /* Reemplaza con la URL de la imagen */
     background-repeat: repeat; /* Se repite en ambas direcciones */
 }
