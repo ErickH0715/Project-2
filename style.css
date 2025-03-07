@@ -23,8 +23,8 @@ nav ul {
 }
 
 nav li {
-    display: inline; /* Poner los elementos en una sola línea */
-    margin: 0 15px;
+    display: inline-block;
+    margin: 0 15px; /* Espacio a la izquierda y derecha */
 }
 
 nav a {
