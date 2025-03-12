@@ -11,11 +11,34 @@ body {
     background-position: center; /* Centra la imagen */
 }
 
+/* Estilos generales para el modelo de caja */
+header, nav, main, footer {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Asignación de colores de fondo diferentes */
+header {
+    background-color: #4CAF50; /* Verde claro */
+}
+
+nav {
+    background-color: #2E7D32; /* Verde oscuro */
+}
+
+main {
+    background-color: #A5D6A7; /* Verde pastel */
+    border: 1px solid black; /* Borde negro */
+}
+
+footer {
+    background-color: rgba(0, 51, 0, 0.8);
+}
+
 /* Estilos para la navegación */
 nav {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 51, 0, 0.8); /* Verde oscuro con transparencia */
     padding: 10px;
 }
 
@@ -81,15 +104,26 @@ a:active {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: rgba(0, 51, 0, 0.8);
-    color: white;
-    transition: color 0.3s ease-in-out;
+/* Estilos para la lista de contacto */
+.contact {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    text-align: center; /* Centra la lista en la página */
+    padding: 0;
 }
 
-footer:hover {
+.contact li {
+    display: block; /* Hace que cada elemento esté en una línea diferente */
+    margin: 5px 0;
+}
+
+/* Footer */
+#copyright {
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#copyright:hover {
     color: #ff5733;
 }
